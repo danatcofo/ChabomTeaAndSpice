@@ -1,0 +1,108 @@
+﻿$logobrown: #3B1C00;
+$title-darkGreen: #67960A;
+$title-lightGreen: #A3D301;
+$font-white: #F3E8B2;
+
+$color1: #6A523E;
+$color2: #B39E80;
+$color3: #B1BD13;
+$color4: #78901C;
+$color5: #7E7120;
+
+
+body {
+    background-image: url('images/banner1.jpg');
+    background-size: cover;
+    color: $font-white;
+}
+
+abbr[title] {
+    border: none;
+    cursor: text;
+}
+
+.panel-info {
+    background-color: rgba(243, 232, 178, 0.75);
+    border-color: transparent;
+    color: $logobrown;
+
+    a {
+        color: $color1;
+    }
+
+    hr {
+        border-top-color: $logobrown;
+    }
+}
+
+small .fa {
+    font-size: 10px;
+}
+
+#body {
+    background-color: #BC7C00;
+    height: 100vh;
+    max-width: 992px;
+    width: 100vw;
+    padding: 0;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    overflow-x: hidden;
+}
+
+#logo {
+    background-image: url('images/Facebook-logo.jpg');
+    height: 210px;
+    width: 210px;
+    background-size: contain;
+    margin-bottom: -25px;
+    position: relative;
+    z-index: 1;
+}
+
+#banner-head {
+    background-image: url('images/banner1.jpg');
+    background-size: cover;
+    height: 440px;
+    margin: 0 -2px -410px;
+}
+
+#social {
+    margin-top: 30px;
+
+    a {
+        color: $font-white;
+        margin: 0 10px;
+    }
+}
+
+.chabom {
+    font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+}
+
+@media (min-width: 992px) {
+
+    #social {
+        margin-top: 0;
+        text-shadow: 0 0 10px $logobrown;
+    }
+
+    #body {
+        width: calc(100vw - 30px);
+        border: solid 2px $logobrown;
+        box-shadow: 0 0 10px $logobrown;
+        border-top: none;
+        border-bottom: none;
+    }
+
+    #banner-head {
+        height: 340px;
+        margin: 0 -2px -270px;
+    }
+
+    #logo {
+        height: 210px;
+        width: 210px;
+        margin-bottom: auto;
+    }
+}
