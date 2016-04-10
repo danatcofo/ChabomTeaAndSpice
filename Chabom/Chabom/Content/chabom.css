@@ -49,9 +49,14 @@ small .fa {
   #social a {
     color: #F3E8B2;
     margin: 0 10px; }
+    #social a:hover {
+      color: #A3D301; }
 
 .chabom {
   font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif; }
+  .chabom small,
+  .chabom .small {
+    color: #78901C; }
 
 @media (min-width: 992px) {
   #social {

@@ -59,6 +59,24 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\favicon\android-chrome-144x144.png" />
+    <Content Include="Content\favicon\android-chrome-192x192.png" />
+    <Content Include="Content\favicon\android-chrome-36x36.png" />
+    <Content Include="Content\favicon\android-chrome-48x48.png" />
+    <Content Include="Content\favicon\android-chrome-72x72.png" />
+    <Content Include="Content\favicon\android-chrome-96x96.png" />
+    <Content Include="Content\favicon\apple-touch-icon-114x114.png" />
+    <Content Include="Content\favicon\apple-touch-icon-120x120.png" />
+    <Content Include="Content\favicon\apple-touch-icon-144x144.png" />
+    <Content Include="Content\favicon\apple-touch-icon-152x152.png" />
+    <Content Include="Content\favicon\apple-touch-icon-180x180.png" />
+    <Content Include="Content\favicon\apple-touch-icon-57x57.png" />
+    <Content Include="Content\favicon\apple-touch-icon-60x60.png" />
+    <Content Include="Content\favicon\apple-touch-icon-72x72.png" />
+    <Content Include="Content\favicon\apple-touch-icon-76x76.png" />
+    <Content Include="Content\favicon\apple-touch-icon-precomposed.png" />
+    <Content Include="Content\favicon\apple-touch-icon.png" />
+    <Content Include="browserconfig.xml" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -69,8 +87,25 @@
     <Content Include="Content\chabom.min.css">
       <DependentUpon>chabom.css</DependentUpon>
     </Content>
+    <Content Include="Content\font-awesome.css" />
+    <Content Include="Content\font-awesome.min.css" />
+    <Content Include="Content\images\Banner.jpg" />
+    <Content Include="Content\images\banner1.jpg" />
+    <Content Include="Content\images\ChabomWide.png" />
+    <Content Include="Content\images\Facebook-logo.jpg" />
+    <Content Include="Content\favicon\favicon-16x16.png" />
+    <Content Include="Content\favicon\favicon-32x32.png" />
+    <Content Include="Content\favicon\favicon-96x96.png" />
+    <Content Include="Content\favicon\favicon.ico" />
+    <Content Include="favicon.ico" />
+    <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="Index.html" />
+    <Content Include="index.html" />
+    <Content Include="Content\favicon\mstile-144x144.png" />
+    <Content Include="Content\favicon\mstile-150x150.png" />
+    <Content Include="Content\favicon\mstile-310x150.png" />
+    <Content Include="Content\favicon\mstile-310x310.png" />
+    <Content Include="Content\favicon\mstile-70x70.png" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -81,7 +116,14 @@
     <Content Include="Content\bootstrap-theme.min.css.map" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\chabom.scss" />
+    <Content Include="fonts\FontAwesome.otf" />
+    <Content Include="fonts\fontawesome-webfont.woff2" />
+    <Content Include="fonts\fontawesome-webfont.woff" />
+    <Content Include="fonts\fontawesome-webfont.ttf" />
+    <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="manifest.json" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Content\favicon\safari-pinned-tab.svg" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />

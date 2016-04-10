@@ -73,11 +73,18 @@ small .fa {
     a {
         color: $font-white;
         margin: 0 10px;
+        &:hover {
+            color: $title-lightGreen;
+        }
     }
 }
 
 .chabom {
     font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+    small,
+    .small {
+        color: $color4;
+    }
 }
 
 @media (min-width: 992px) {
