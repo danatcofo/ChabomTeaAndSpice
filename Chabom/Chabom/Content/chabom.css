@@ -2,6 +2,7 @@
   background-image: url("images/banner1.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
   color: #F3E8B2; }
 
 abbr[title] {
@@ -27,6 +28,8 @@ small .fa {
   border-top: solid 10px #3B1C00; }
   .section:first-of-type {
     border-top: none; }
+  .section:last-of-type {
+    border-bottom: none; }
 
 .alt-section {
   background-color: #BC7C00; }
@@ -45,7 +48,8 @@ small .fa {
 #samples {
   background-image: url("images/banner2.jpg");
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  background-attachment: scroll; }
 
 #store a {
   color: #3B1C00; }

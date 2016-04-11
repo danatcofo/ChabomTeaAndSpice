@@ -14,6 +14,7 @@ body {
     background-image: url('images/banner1.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment:fixed;
     color: $font-white;
 }
 
@@ -48,6 +49,9 @@ small .fa {
     &:first-of-type {
         border-top:none;
     }
+    &:last-of-type {
+        border-bottom:none;
+    }
 
 }
 .alt-section {
@@ -71,6 +75,7 @@ small .fa {
     background-image: url('images/banner2.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment:scroll;
 }
 
 #store {
