@@ -1,6 +1,7 @@
 ﻿body {
   background-image: url("images/banner1.jpg");
   background-size: cover;
+  background-position: center;
   color: #F3E8B2; }
 
 abbr[title] {
@@ -19,15 +20,35 @@ abbr[title] {
 small .fa {
   font-size: 10px; }
 
-#body {
-  background-color: #BC7C00;
-  height: 100vh;
+.section {
+  box-shadow: 0 0 10px #3B1C00;
+  position: relative;
+  border-bottom: solid 10px #3B1C00;
+  border-top: solid 10px #3B1C00; }
+  .section:first-of-type {
+    border-top: none; }
+
+.alt-section {
+  background-color: #BC7C00; }
+
+#body, #samples, #store {
   max-width: 992px;
   width: 100vw;
   padding: 0;
   padding-top: 10vh;
   padding-bottom: 10vh;
   overflow-x: hidden; }
+
+#body, #store {
+  background-color: #BC7C00; }
+
+#samples {
+  background-image: url("images/banner2.jpg");
+  background-size: cover;
+  background-position: center; }
+
+#store a {
+  color: #3B1C00; }
 
 #logo {
   background-image: url("images/Facebook-logo.jpg");
@@ -41,6 +62,7 @@ small .fa {
 #banner-head {
   background-image: url("images/banner1.jpg");
   background-size: cover;
+  background-position: center;
   height: 440px;
   margin: 0 -2px -410px; }
 
@@ -58,11 +80,19 @@ small .fa {
   .chabom .small {
     color: #78901C; }
 
+.row img {
+  width: 100%;
+  max-width: 800px; }
+  .row img.img-thumbnail {
+    margin-bottom: 20px; }
+
 @media (min-width: 992px) {
   #social {
     margin-top: 0;
     text-shadow: 0 0 10px #3B1C00; }
   #body {
+    min-height: 490px; }
+  #body, #samples, #store {
     width: calc(100vw - 30px);
     border: solid 2px #3B1C00;
     box-shadow: 0 0 10px #3B1C00;

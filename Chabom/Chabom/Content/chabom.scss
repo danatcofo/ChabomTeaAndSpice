@@ -13,6 +13,7 @@ $color5: #7E7120;
 body {
     background-image: url('images/banner1.jpg');
     background-size: cover;
+    background-position: center;
     color: $font-white;
 }
 
@@ -39,15 +40,44 @@ small .fa {
     font-size: 10px;
 }
 
-#body {
+.section {
+    box-shadow: 0 0 10px $logobrown;
+    position: relative;
+    border-bottom: solid 10px $logobrown;
+    border-top: solid 10px $logobrown;
+    &:first-of-type {
+        border-top:none;
+    }
+
+}
+.alt-section {
     background-color: #BC7C00;
-    height: 100vh;
+}
+
+#body, #samples, #store {
     max-width: 992px;
     width: 100vw;
     padding: 0;
     padding-top: 10vh;
     padding-bottom: 10vh;
     overflow-x: hidden;
+}
+
+#body, #store {
+    background-color: #BC7C00;
+}
+
+#samples {
+    background-image: url('images/banner2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+#store {
+    
+    a {
+        color: $logobrown;
+    }
 }
 
 #logo {
@@ -63,6 +93,7 @@ small .fa {
 #banner-head {
     background-image: url('images/banner1.jpg');
     background-size: cover;
+    background-position: center;
     height: 440px;
     margin: 0 -2px -410px;
 }
@@ -73,6 +104,7 @@ small .fa {
     a {
         color: $font-white;
         margin: 0 10px;
+
         &:hover {
             color: $title-lightGreen;
         }
@@ -81,9 +113,19 @@ small .fa {
 
 .chabom {
     font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif;
+
     small,
     .small {
         color: $color4;
+    }
+}
+
+.row img {
+    width: 100%;
+    max-width: 800px;
+
+    &.img-thumbnail {
+        margin-bottom: 20px;
     }
 }
 
@@ -93,8 +135,10 @@ small .fa {
         margin-top: 0;
         text-shadow: 0 0 10px $logobrown;
     }
-
     #body {
+        min-height: 490px;
+    }
+    #body, #samples, #store {
         width: calc(100vw - 30px);
         border: solid 2px $logobrown;
         box-shadow: 0 0 10px $logobrown;
