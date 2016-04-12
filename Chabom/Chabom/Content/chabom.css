@@ -22,7 +22,7 @@ small .fa {
   font-size: 10px; }
 
 .section {
-  box-shadow: 0 0 10px #3B1C00;
+  box-shadow: 0 0 20px #3B1C00;
   position: relative;
   border-bottom: solid 10px #3B1C00;
   border-top: solid 10px #3B1C00; }
@@ -34,25 +34,35 @@ small .fa {
 .alt-section {
   background-color: #BC7C00; }
 
-#body, #samples, #store {
+.banner {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  position: absolute;
+  height: 630px;
+  max-width: 988px;
+  width: 100vw;
+  top: 0; }
+
+.section-body {
+  background-color: #BC7C00;
   max-width: 992px;
   width: 100vw;
   padding: 0;
   padding-top: 10vh;
   padding-bottom: 10vh;
-  overflow-x: hidden; }
-
-#body, #store {
-  background-color: #BC7C00; }
-
-#samples {
-  background-image: url("images/banner2.jpg");
+  overflow-x: hidden;
   background-size: cover;
   background-position: center;
   background-attachment: scroll; }
 
 #store a {
   color: #3B1C00; }
+
+[data-banner='1'] {
+  background-image: url("images/banner1.jpg"); }
+
+[data-banner='2'] {
+  background-image: url("images/banner2.jpg"); }
 
 #logo {
   background-image: url("images/Facebook-logo.jpg");
@@ -63,20 +73,11 @@ small .fa {
   position: relative;
   z-index: 1; }
 
-#banner-head {
-  background-image: url("images/banner1.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 440px;
-  margin: 0 -2px -410px; }
-
-#social {
-  margin-top: 30px; }
-  #social a {
-    color: #F3E8B2;
-    margin: 0 10px; }
-    #social a:hover {
-      color: #A3D301; }
+#social a {
+  color: #F3E8B2;
+  margin: 0 10px; }
+  #social a:hover {
+    color: #A3D301; }
 
 .chabom {
   font-family: "Avant Garde",Avantgarde,"Century Gothic",CenturyGothic,AppleGothic,sans-serif; }
@@ -91,20 +92,16 @@ small .fa {
     margin-bottom: 20px; }
 
 @media (min-width: 992px) {
+  .banner {
+    height: 360px; }
   #social {
-    margin-top: 0;
     text-shadow: 0 0 10px #3B1C00; }
-  #body {
-    min-height: 490px; }
-  #body, #samples, #store {
+  .section-body {
     width: calc(100vw - 30px);
     border: solid 2px #3B1C00;
     box-shadow: 0 0 10px #3B1C00;
     border-top: none;
     border-bottom: none; }
-  #banner-head {
-    height: 340px;
-    margin: 0 -2px -270px; }
   #logo {
     height: 210px;
     width: 210px;

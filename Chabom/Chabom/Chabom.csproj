@@ -99,6 +99,9 @@
     <Content Include="Content\favicon\favicon-96x96.png" />
     <Content Include="Content\favicon\favicon.ico" />
     <Content Include="Content\samples\sample1.jpg" />
+    <Content Include="Content\samples\sample10.jpg" />
+    <Content Include="Content\samples\sample11.jpg" />
+    <Content Include="Content\samples\sample12.jpg" />
     <Content Include="Content\samples\sample2.jpg" />
     <Content Include="Content\samples\sample3.jpg" />
     <Content Include="Content\samples\sample4.jpg" />
@@ -106,6 +109,7 @@
     <Content Include="Content\samples\sample6.jpg" />
     <Content Include="Content\samples\sample7.jpg" />
     <Content Include="Content\samples\sample8.jpg" />
+    <Content Include="Content\samples\sample9.jpg" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -133,6 +137,7 @@
     <Content Include="manifest.json" />
     <Content Include="Content\prices\Chabom Herbs and Spices.pdf" />
     <Content Include="Content\prices\Chabom Loose Leaf Teas.pdf" />
+    <Content Include="Content\prices\ChabomOrderForm.pdf" />
     <None Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Content\favicon\safari-pinned-tab.svg" />
     <Content Include="Scripts\bootstrap.js" />
