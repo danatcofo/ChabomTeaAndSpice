@@ -34,14 +34,18 @@ small .fa {
 .alt-section {
   background-color: #BC7C00; }
 
+.row {
+  margin: 0; }
+
 .banner {
   margin-top: 5vh;
   margin-bottom: 5vh;
   position: absolute;
-  height: 630px;
+  height: 560px;
   max-width: 988px;
   width: 100vw;
-  top: 0; }
+  top: 0;
+  max-height: calc(100% - 10vh); }
 
 .section-body {
   background-color: #BC7C00;
@@ -50,7 +54,6 @@ small .fa {
   padding: 0;
   padding-top: 10vh;
   padding-bottom: 10vh;
-  overflow-x: hidden;
   background-size: cover;
   background-position: center;
   background-attachment: scroll; }
